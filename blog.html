@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-top top-header">
+            <div class="header-top__content header-menu">
+                <div class="header__body">
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="" class="header__link">Works</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="" class="header__link active">Blog</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="" class="header__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="blog">
+            <div class="container">
+                <h1 class="page__title">Blog</h1>
+                <div class="blog__posts">
+                    <div class="blog__post design-making">
+                        <h3 class="post__title title-design"><a href="">UI Interactions of the week</a></h3>
+                        <div class="post__date date">12 Feb 2019 <span class="space-line">|</span> <span>Express, Handlebars</span></div>
+                        <div class="post__text content">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+                    </div>
+                    <div class="blog__post design-making">
+                        <h3 class="post__title title-design"><a href="">UI Interactions of the week</a></h3>
+                        <div class="post__date date">12 Feb 2019 <span class="space-line">|</span> <span>Express, Handlebars</span></div>
+                        <div class="post__text content">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+                    </div>
+                    <div class="blog__post design-making">
+                        <h3 class="post__title title-design"><a href="">UI Interactions of the week</a></h3>
+                        <div class="post__date date">12 Feb 2019 <span class="space-line">|</span> <span>Express, Handlebars</span></div>
+                        <div class="post__text content">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+                    </div>
+                    <div class="blog__post design-making">
+                        <h3 class="post__title title-design"><a href="">UI Interactions of the week</a></h3>
+                        <div class="post__date date">12 Feb 2019 <span class="space-line">|</span> <span>Express, Handlebars</span></div>
+                        <div class="post__text content">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+      <footer class="footer">
+        <div class="container">
+            <div class="social-media">
+                <div class="social-media__link">
+                    <a href="#!" class="link-facebook link">
+                        <img src="./img/header/facebook.png" alt="Facebook">
+                    </a>
+                    <a href="" class="link-instagram link">
+                        <img src="./img/header/instagram.png" alt="Instagram">
+                    </a>
+                    <a href="" class="link-twitter link">
+                        <img src="./img/header/twitter.svg" alt="Twitter">
+                    </a>
+                    <a href="" class="link-linkedin link">
+                        <img src="./img/header/linkedin.png" alt="LinkedIn">
+                    </a>
+                </div>
+                <div class="block_rights">
+                    <div class="rights__desc">Copyright ©2020 All rights reserved</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.querySelector('.header__body').addEventListener('click', function () {
+            document.querySelector('.header__nav').classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
